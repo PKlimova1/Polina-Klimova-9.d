@@ -1,0 +1,80 @@
+//#include <iostream>
+//using namespace std;
+//int main()
+////{
+////	int sk1, sk2;
+////	cin >> sk1 >> sk2;
+////	if (sk1 > sk2) cout << "pirmais skaitlis ir maksimalais, otrais minimals" << endl;
+////	else cout << "pirmais skaitlis ir mini, otrais max" << endl;
+////	if (sk1 > 0)cout << "pirmais skaitlis ir pozitivs" <<endl;
+////	else cout << "pirmais maz par 0" << endl;
+////	if (sk2 > 0)cout << "otrais skaitlis ir pozitivs" << endl;
+////	else cout << "otrais maz par 0" << endl;
+////	if (sk1 % 2 == 0) cout << "pirmais skaitlis ir para" << endl;
+////	else cout << "pirmais skaitlis ir para" << endl;
+////	if (sk2 % 2 == 0) cout << "otrais skaitlis ir para" << endl;
+////	else cout << "otrais skaitlis ir para" << endl;
+////
+////}
+//
+////{
+////int grade;
+////cin >> grade;
+////if (grade >= 100) { cout << "wrong"; }
+////else if (grade >= 90) { cout << "grade A"; }
+////else if (grade >= 80) { cout << "grade B"; }
+////else if (grade >= 70) { cout << "grade C"; }
+////else if (grade >= 60) { cout << "grade D"; }
+////else if (grade >= 40) { cout << "grade E"; }
+////else if (grade < 40) { cout << "grade F"; };
+////
+////}
+//
+////
+////{
+////
+//////{
+//	/*int day;
+//	cin >> day;
+//	if (day > 7) { cout << "wrong"; }
+//	if (day == 1) { cout << "Pirmdiena"; }
+//	if (day == 2) { cout << "Otrdiena"; }
+//	if (day == 3) { cout << "Trešdiena"; }
+//	if (day == 4) { cout << "Ceturtdiena"; }
+//	if (day == 5) { cout << "Piektdiena"; }
+//	if (day == 6) { cout << "Sestdiena"; }
+//	if (day == 7) { cout << "Ceturtdiena"; };*/
+//
+//	//}
+//	//
+//	//}
+//
+//
+//	//{
+//	//int month;
+//	//cin >> month;
+//	//if (month > 12) { cout << "wrong"; }
+//	//if (month == 1) { cout << "January"; }
+//	//if (month == 2) { cout << "February"; }
+//	//if (month == 3) { cout << "March"; }
+//	//if (month == 4) { cout << "April"; }
+//	//if (month == 5) { cout << "May"; }
+//	//if (month == 6) { cout << "June"; }
+//	//if (month == 7) { cout << "July"; }
+//	//if (month == 8) { cout << "August"; }
+//	//if (month == 9) { cout << "September"; }
+//	//if (month == 10) { cout << "October"; }
+//	//if (month == 11) { cout << "November"; }
+//	//if (month == 12) { cout << "December"; };
+//	//
+//	//
+//	//}
+//
+////{
+////int AB;
+////int BC;
+////int CD;
+////cin >> AB;
+////cin >> BC;
+////cin >> CD;
+////}
