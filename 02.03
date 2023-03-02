@@ -1,0 +1,30 @@
+CREATE TABLE laikapst(
+  numurs INTEGER primary KEY,
+  day TEXT NOT NULL,
+  date TEXT NOT NULL,
+  weath TEXT NOT NULL,
+  temp INTEGER NOT NULL
+  );
+  
+ insert INTO laikapst  VALUES (0001,"cet","16 feb", 'sun',"+2");
+  iNSERT INTO laikapst  VALUES (0002,"piekt","17 feb", 'sun',"+3");
+  iNSERT INTO laikapst  VALUES (0003,"sest","18 feb", 'sun',"+2");
+  iNSERT INTO laikapst  VALUES (0004,"svet","19 feb", 'liet',"+2");
+  iNSERT INTO laikapst  VALUES (0005,"pirm","20 feb", 'sun',"-1");
+  iNSERT INTO laikapst  VALUES (0006,"otr","21 feb", 'sun',"-2");
+  iNSERT INTO laikapst  VALUES (0008,"tres","22 feb", 'sun',"-3");
+  iNSERT INTO laikapst VALUES (0009,"cet","23 feb", 'sniegs',"-3");
+  iNSERT INTO laikapst  VALUES (0010,"piekt","24 feb", '',"+1");
+  iNSERT INTO laikapst  VALUES (0011,"sest","25 feb", 'sun',"-3");
+  iNSERT INTO laikapst  VALUES (0012,"svet","26 feb", 'sun',"+1");
+  iNSERT INTO laikapst  VALUES (0013,"pirm","27 feb", 'sniegs',"-3");
+  iNSERT INTO laikapst  VALUES (0014,"otr","28 feb", 'sun',"-1");
+  iNSERT INTO laikapst  VALUES (0015,"tres","1 mart", 'sun',"+6");
+  
+  select* from  laikapst;
+   select* from  laikapst where temp>0
+    select* from  laikapst where day = 'otr' and weath = 'liet'
+    select min(temp) as LowestTemp from laikapst;
+    select max(temp) as HighestTemp from laikapst;
+    select avg(temp)
+    select* from laikapst where weat ="sniegs"
