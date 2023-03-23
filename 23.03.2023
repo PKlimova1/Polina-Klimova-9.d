@@ -1,0 +1,72 @@
+-- create
+CREATE TABLE EMPLOYEE (
+  Id INTEGER PRIMARY KEY,
+  kurjera_v TEXT NOT NULL,
+  kurjera_u TEXT NOT NULL,
+  rajons TEXT NOT NULL,
+  vecums INTEGER NOT NULL,
+  dzimums TEXT NOT NULL
+  
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, 'Alla', 'Kotova', "Rīga",32,"Sieviešu");
+INSERT INTO EMPLOYEE VALUES (2, 'Vlads', 'Krastiņš','Rīga',45,"Viriešu");
+INSERT INTO EMPLOYEE VALUES (3, 'Grigorijs', 'Galds','Ogres rajons',33, "Viriešu");
+INSERT INTO EMPLOYEE VALUES (4, 'Kira', 'Klimova','Saulkrastu novads',56,"Sieviešu");
+-- fetch 
+SELECT * FROM EMPLOYEE; 
+SELECT * FROM EMPLOYEE;   
+SELECT * FROM EMPLOYEE where kurjera_v>45;
+SELECT * FROM EMPLOYEE where rajons= "Rīga" and dzimums="Sieviešu";
+SELECT * FROM EMPLOYEE where rajons= "Ogres novads" and dzimums="Viriešu";
+
+
+
+
+
+
+
+CREATE TABLE EMPLOYEE (
+
+emlpoye_ID INTEGER NOT NULL,
+
+kurjera_Vards TEXT NOT NULL,
+
+kurjera_Uzvards TEXT NOT NULL,
+
+customer_ID INTEGER NOT NULL,
+
+customer_name TEXT NOT NULL,
+
+pilseta TEXT NOT NULL
+
+);
+
+-- insert
+
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 1, 'Jewelry Store', 'London');
+
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 2, 'Bakery', 'London');
+
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 3, 'Cafe', 'London');
+
+INSERT INTO EMPLOYEE VALUES (1, 'Thomas(Neo)', 'Anderson', 4, 'Restaurant', 'London');
+
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 1,'Jewelry Store', 'Cardiff');
+
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 2,'Bakery', 'Cardiff');
+
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 3,'Cafe', 'Cardiff');
+
+INSERT INTO EMPLOYEE VALUES (2, 'Agent', 'Smith', 4,'Restaurant', 'Cardiff');
+
+-- fetch
+
+SELECT * FROM EMPLOYEE WHERE customer_name='Bakery';
+
+SELECT * FROM EMPLOYEE WHERE emlpoye_ID=4 and kurjera_Uzvards='Anderson';
+
+SELECT AVG(customer_ID) FROM EMPLOYEE;
+
+SELECT MIN(customer_ID) FROM EMPLOYEE
